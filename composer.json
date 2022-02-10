@@ -1,0 +1,23 @@
+{
+    "name": "foo/custom-elan-bundle",
+    "description": "A Kimai 2 demo bundle to make timetracking at ELAN great again.",
+    "homepage": "https://github.com/jduehring/CustomElanBundle",
+    "type": "kimai-plugin",
+    "version": "0.1",
+    "require": {
+        "kimai/kimai2-composer": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonas Dühring",
+            "email": "duehring@elan-ev.de"        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": "1.3",
+            "version": "0.1",
+            "name": "CustomElanBundle"
+        }
+    }
+}
